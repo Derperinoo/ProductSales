@@ -13,6 +13,7 @@ app.use('/public', express.static(__dirname + '/'));
 //express routes
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, '/index.html'));
+});
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, '/index2.html'));
 });
